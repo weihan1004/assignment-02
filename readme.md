@@ -2,7 +2,7 @@
 
 **Please read the entire prompt before starting.**
 
-**If you have questions, espepcially about what something means, please ask.**
+**If you have questions, especially about what something means, please ask.**
 
 ### Requirements
 

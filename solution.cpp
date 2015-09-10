@@ -108,7 +108,11 @@ int main() {
         return 1;  // error
     }
 
-    bool primes[max+1];
+    // - Runtime sized arrays are a C99 feature, and a GCC and Clang extension.
+    //   Thus `bool primes[max+1];` is not standards compliant.  It should work
+    //   on Xcode (which uses Clang) and in Linux (where most people use either
+    //   GCC or Clang), but Visual Studio appears not to allow it.
+    bool * primes = (bool *) malloc( sizeof(bool) * (max+1) );
     sieve(max+1, primes);
 
     int ret;  // for storing return values, to check for error codes

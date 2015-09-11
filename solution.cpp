@@ -1,6 +1,6 @@
 /* ----------------------------------------------------------------------------
  * Copyright &copy; 2015 Ben Blazak <bblazak@fullerton.edu>
- *                  2015 TODO(your name) <TODO(your email)>
+ *                  2015 TODO(weihan xiao) <TODO(weihan1004@gmail.com)>
  * Released under the [MIT License] (http://opensource.org/licenses/MIT)
  * ------------------------------------------------------------------------- */
 
@@ -22,6 +22,7 @@ using std::string;
 using std::ifstream;
 using std::ofstream;
 
+#include <climits>
 /**
  * Find the maximum unsigned integer in `infilename`.
  *
